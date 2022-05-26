@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+***
+photo_search_app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**概要**  
+***
+写真を検索するサービスです。  
 
-## Available Scripts
+<img src="https://user-images.githubusercontent.com/55477664/170502175-663c2b35-9f76-4325-82e1-1a368401f93d.png" width="500サイズ">
 
-In the project directory, you can run:
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/55477664/170502845-2e125b65-61a8-420a-aaed-acf94fe7d1cc.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170502911-1432d45b-03a3-4173-b98f-b9dfaac8b76c.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170502939-f21eddc8-3acf-4526-b541-38e7c6ce6f65.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170502978-9dd038a9-56b4-4609-b6ea-672de147a722.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170502999-7ddb92c9-0961-450a-85ce-934eba5c7c2d.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170503002-1e421784-9215-4999-9db8-898d1ccb9a62.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170503007-10734016-1670-45a7-8515-39ef55201944.png" width="200サイズ">
+  <img src="https://user-images.githubusercontent.com/55477664/170503009-9e10acc6-412b-496d-bc82-ded6b9cc34ad.png" width="200サイズ">
+</p>
 
-### `npm start`
+**使用技術**
+***
+* Rails 5.2.4.1
+* bulma-rails 
+* devise  
+* refile
+* refile-mini_magick
+* rails-i18n
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**機能一覧**  
+***
+* ユーザー登録  
+* レシピ登録
